@@ -1,0 +1,1 @@
+javascript:(function() { var coins = ['id-bitcoin', 'id-ethereum', 'id-monero']; var elements = document.querySelectorAll("#currencies-all tbody tr"); for (var i = 0; i < elements.length; i++){if (coins.indexOf(elements[i].id) >= 0) {elements[i].style.backgroundColor = '#ffeba2'; } }})();
